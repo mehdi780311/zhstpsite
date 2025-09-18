@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <title>ZHSTP | Zanjan Health Science and Technology Park | Home</title>
+    <meta name="description" content="Discover Zanjan Health Science and Technology Park (ZHSTP), the leading hub for innovation in health and medical technology in Iran. Explore our services, resident companies, and how to join our growing ecosystem.">
+    <meta name="keywords" content="Zanjan Health Science and Technology Park, ZHSTP, health technology Zanjan, medical startups Iran, science park, technology park">
+    <link rel="canonical" href="https://www.zhstp.ir/index.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.zhstp.ir/index.html">
+    <meta property="og:title" content="ZHSTP | Zanjan Health Science and Technology Park | Home">
+    <meta property="og:description" content="The leading hub for innovation in health and medical technology in Iran.">
+    <meta property="og:image" content="https://placehold.co/1200x630/3b82f6/ffffff?text=ZHSTP+Campus">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.zhstp.ir/index.html">
+    <meta name="twitter:title" content="ZHSTP | Zanjan Health Science and Technology Park | Home">
+    <meta name="twitter:description" content="The leading hub for innovation in health and medical technology in Iran.">
+    <meta name="twitter:image" content="https://placehold.co/1200x630/3b82f6/ffffff?text=ZHSTP+Campus">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Zanjan Health Science and Technology Park (ZHSTP)",
+      "url": "https://www.zhstp.ir",
+      "logo": "https://www.zhstp.ir/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+98-24-3315-1111",
+        "contactType": "customer service",
+        "email": "info@zhstp.ir"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Zanjan University of Medical Sciences",
+        "addressLocality": "Zanjan",
+        "addressCountry": "IR"
+      },
+      "sameAs": []
+    }
+    </script>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <!-- Chosen Palette: "Calm Harmony" -->
+    <!-- Application Structure Plan: A multi-page layout is chosen for clear separation of concerns and improved SEO. Each core topic (About, Services, etc.) gets its own dedicated page. The homepage (index.html) serves as a welcoming entry point with a strong hero statement and summary links to the interior pages. This provides a clear, user-friendly navigation path. -->
+    <!-- Visualization & Content Choices: The site uses structured HTML/CSS for clear information presentation. Goal: Inform -> Method: Thematic sections and dedicated pages. Interaction: Language switching and standard page navigation. Justification: This classic multi-page structure is intuitive and effective for a corporate/informational website. Icons enhance scannability. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        :root {
+            --brand-primary: #3b82f6; /* Blue 500 */
+            --brand-secondary: #10b981; /* Emerald 500 */
+            --text-primary: #1f2937; /* Gray 800 */
+            --text-secondary: #4b5563; /* Gray 600 */
+            --bg-light: #f9fafb; /* Gray 50 */
+            --bg-white: #ffffff;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-primary);
+        }
+        .font-fa {
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        .rtl { direction: rtl; }
+        .ltr { direction: ltr; }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .lang-btn {
+            border: 1px solid var(--brand-primary);
+            color: var(--brand-primary);
+            transition: all 0.3s ease;
+        }
+        .lang-btn.active, .lang-btn:hover {
+            background-color: var(--brand-primary);
+            color: var(--bg-white);
+        }
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 50%;
+            background-color: var(--brand-primary);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+        .nav-link:hover::after, .nav-link.active::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <header id="header" class="bg-white shadow-md sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <span class="text-2xl text-blue-500">⚕️</span>
+                <h1 id="logo-text" class="text-xl font-bold text-gray-800">ZHSTP</h1>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="Home" data-lang-fa="خانه">Home</a>
+                <a href="about.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="About Us" data-lang-fa="درباره ما">About Us</a>
+                <a href="services.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="Services" data-lang-fa="خدمات">Services</a>
+                <a href="companies.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="Companies" data-lang-fa="شرکت‌ها">Companies</a>
+                <a href="contact.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="Contact" data-lang-fa="تماس با ما">Contact</a>
+            </div>
+            <div class="flex items-center">
+                 <div class="flex items-center border border-gray-300 rounded-full">
+                    <button id="lang-en" class="lang-btn px-4 py-1 text-sm font-semibold rounded-full active">EN</button>
+                    <button id="lang-fa" class="lang-btn px-4 py-1 text-sm font-semibold rounded-full">FA</button>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden ml-4 text-gray-600 focus:outline-none">
+                    <span class="text-2xl">☰</span>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="index.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="Home" data-lang-fa="خانه">Home</a>
+            <a href="about.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="About Us" data-lang-fa="درباره ما">About Us</a>
+            <a href="services.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="Services" data-lang-fa="خدمات">Services</a>
+            <a href="companies.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="Companies" data-lang-fa="شرکت‌ها">Companies</a>
+            <a href="contact.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="Contact" data-lang-fa="تماس با ما">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="relative min-h-[60vh] md:min-h-[80vh] flex items-center bg-cover bg-center" style="background-image: url('https://placehold.co/1600x900/e0f2fe/3b82f6?text=Innovation+Campus');">
+            <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+            <div class="container mx-auto px-6 text-center relative z-10">
+                <h2 class="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight fade-in" data-lang-en="Pioneering Health & Technology" data-lang-fa="پیشگام در سلامت و فناوری">Pioneering Health & Technology</h2>
+                <p class="text-lg md:text-xl text-gray-200 mb-8 fade-in" data-lang-en="Your Hub for Innovation and Growth in Zanjan" data-lang-fa="مرکز شما برای نوآوری و رشد در زنجان">Your Hub for Innovation and Growth in Zanjan</p>
+                <a href="contact.html" class="bg-blue-500 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300" data-lang-en="Join Us" data-lang-fa="به ما بپیوندید">Join Us</a>
+            </div>
+        </section>
+
+        <section id="home-about" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                 <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://placehold.co/600x400/dbeafe/1e40af?text=Future+of+Health" alt="A modern, collaborative workspace representing the future of health technology at ZHSTP." class="rounded-lg shadow-lg w-full">
+                    </div>
+                    <div class="content-text">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4" data-lang-en="Welcome to ZHSTP" data-lang-fa="به پارک علم و فناوری سلامت زنجان خوش آمدید">Welcome to ZHSTP</h2>
+                        <p class="text-gray-600 mb-6" data-lang-en="We are dedicated to fostering an ecosystem where health sciences and technology converge. Our mission is to support and accelerate the growth of knowledge-based companies in the health sector, translating research into impactful commercial products." data-lang-fa="ما به پرورش اکوسیستمی که در آن علوم سلامت و فناوری همگرا می‌شوند، اختصاص یافته‌ایم. ماموریت ما حمایت و تسریع رشد شرکت‌های دانش‌بنیان در حوزه سلامت و تبدیل تحقیقات به محصولات تجاری تأثیرگذار است.">We are dedicated to fostering an ecosystem where health sciences and technology converge. Our mission is to support and accelerate the growth of knowledge-based companies in the health sector, translating research into impactful commercial products.</p>
+                        <a href="about.html" class="text-blue-500 font-semibold hover:underline" data-lang-en="Learn More About Us →" data-lang-fa="بیشتر درباره ما بدانید ←">Learn More About Us →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-services" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-2" data-lang-en="Our Core Services" data-lang-fa="خدمات اصلی ما">Our Core Services</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto" data-lang-en="A comprehensive suite of services designed to help your venture succeed at every stage." data-lang-fa="مجموعه‌ای جامع از خدمات که برای کمک به موفقیت کسب‌وکار شما در هر مرحله طراحی شده است.">A comprehensive suite of services designed to help your venture succeed at every stage.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="text-4xl text-blue-500 mb-4">🏢</div>
+                        <h3 class="text-xl font-semibold mb-2" data-lang-en="Incubation Space" data-lang-fa="فضای استقرار">Incubation Space</h3>
+                    </div>
+                     <div class="text-center">
+                        <div class="text-4xl text-blue-500 mb-4">🔬</div>
+                        <h3 class="text-xl font-semibold mb-2" data-lang-en="Advanced Labs" data-lang-fa="آزمایشگاه‌های پیشرفته">Advanced Labs</h3>
+                    </div>
+                     <div class="text-center">
+                        <div class="text-4xl text-blue-500 mb-4">🤝</div>
+                        <h3 class="text-xl font-semibold mb-2" data-lang-en="Mentorship" data-lang-fa="مشاوره و منتورینگ">Mentorship</h3>
+                    </div>
+                     <div class="text-center">
+                        <div class="text-4xl text-blue-500 mb-4">💰</div>
+                        <h3 class="text-xl font-semibold mb-2" data-lang-en="Funding Access" data-lang-fa="دسترسی به سرمایه">Funding Access</h3>
+                    </div>
+                </div>
+                <div class="text-center mt-12">
+                    <a href="services.html" class="bg-blue-500 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300" data-lang-en="Explore All Services" data-lang-fa="مشاهده همه خدمات">Explore All Services</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+            <p data-lang-en="Zanjan Health Science and Technology Park" data-lang-fa="پارک علم و فناوری سلامت زنجان">Zanjan Health Science and Technology Park</p>
+            <p class="text-sm text-gray-400 mt-2" data-lang-en="© 2025 All Rights Reserved. Domain: www.zhstp.ir" data-lang-fa="© ۲۰۲۵ کلیه حقوق محفوظ است. دامنه: www.zhstp.ir">© 2025 All Rights Reserved. Domain: www.zhstp.ir</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const langEnBtn = document.getElementById('lang-en');
+            const langFaBtn = document.getElementById('lang-fa');
+            const translatableElements = document.querySelectorAll('[data-lang-en]');
+            const contentTextElements = document.querySelectorAll('.content-text');
+            const body = document.body;
+            const html = document.documentElement;
+
+            function setLanguage(lang) {
+                if (lang === 'fa') {
+                    html.setAttribute('lang', 'fa');
+                    html.setAttribute('dir', 'rtl');
+                    body.classList.add('font-fa');
+                    langFaBtn.classList.add('active');
+                    langEnBtn.classList.remove('active');
+                    contentTextElements.forEach(el => el.classList.add('rtl'));
+                } else {
+                    html.setAttribute('lang', 'en');
+                    html.setAttribute('dir', 'ltr');
+                    body.classList.remove('font-fa');
+                    langEnBtn.classList.add('active');
+                    langFaBtn.classList.remove('active');
+                    contentTextElements.forEach(el => el.classList.remove('rtl'));
+                }
+
+                translatableElements.forEach(el => {
+                    const enText = el.getAttribute('data-lang-en');
+                    const faText = el.getAttribute('data-lang-fa');
+                    if (lang === 'fa') {
+                        el.innerText = faText;
+                    } else {
+                        el.innerText = enText;
+                    }
+                });
+                
+                localStorage.setItem('zhstp_lang', lang);
+            }
+
+            langEnBtn.addEventListener('click', () => setLanguage('en'));
+            langFaBtn.addEventListener('click', () => setLanguage('fa'));
+            
+            const savedLang = localStorage.getItem('zhstp_lang') || 'en';
+            setLanguage(savedLang);
+
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            const navLinks = document.querySelectorAll('header .nav-link');
+            navLinks.forEach(link => {
+                const linkPage = link.getAttribute('href').split('/').pop();
+                if (linkPage === currentPage || (currentPage === '' && linkPage === 'index.html')) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <title>Our Services | Incubation, Labs & Funding | ZHSTP</title>
+    <meta name="description" content="Explore the comprehensive services at ZHSTP, including state-of-the-art incubation spaces, advanced labs, expert mentorship, and access to funding for health technology companies.">
+    <meta name="keywords" content="health tech services, incubation space, advanced labs, mentorship, funding access, ZHSTP services, medical startup support">
+    <link rel="canonical" href="https://www.zhstp.ir/services.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.zhstp.ir/services.html">
+    <meta property="og:title" content="Our Services | Incubation, Labs & Funding | ZHSTP">
+    <meta property="og:description" content="Comprehensive support for health tech companies, from incubation to funding.">
+    <meta property="og:image" content="https://placehold.co/1200x630/10b981/ffffff?text=Our+Services">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.zhstp.ir/services.html">
+    <meta name="twitter:title" content="Our Services | Incubation, Labs & Funding | ZHSTP">
+    <meta name="twitter:description" content="Comprehensive support for health tech companies, from incubation to funding.">
+    <meta name="twitter:image" content="https://placehold.co/1200x630/10b981/ffffff?text=Our+Services">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Zanjan Health Science and Technology Park (ZHSTP)",
+      "url": "https://www.zhstp.ir",
+      "logo": "https://www.zhstp.ir/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+98-24-3315-1111",
+        "contactType": "customer service",
+        "email": "info@zhstp.ir"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Zanjan University of Medical Sciences",
+        "addressLocality": "Zanjan",
+        "addressCountry": "IR"
+      },
+      "sameAs": []
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        :root {
+            --brand-primary: #3b82f6;
+            --text-primary: #1f2937;
+        }
+        body { font-family: 'Inter', sans-serif; color: var(--text-primary); }
+        .font-fa { font-family: 'Vazirmatn', sans-serif; }
+        .rtl { direction: rtl; }
+        .ltr { direction: ltr; }
+        .lang-btn { border: 1px solid var(--brand-primary); color: var(--brand-primary); transition: all 0.3s ease; }
+        .lang-btn.active, .lang-btn:hover { background-color: var(--brand-primary); color: white; }
+        .nav-link { position: relative; transition: color 0.3s ease; }
+        .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -4px; left: 50%; background-color: var(--brand-primary); transition: all 0.3s ease; transform: translateX(-50%); }
+        .nav-link:hover::after, .nav-link.active::after { width: 100%; }
+        .page-header {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://placehold.co/1600x400/10b981/ffffff?text=Our+Services');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <header id="header" class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <span class="text-2xl text-blue-500">⚕️</span>
+                <h1 id="logo-text" class="text-xl font-bold text-gray-800">ZHSTP</h1>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="Home" data-lang-fa="خانه">Home</a>
+                <a href="about.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="About Us" data-lang-fa="درباره ما">About Us</a>
+                <a href="services.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="Services" data-lang-fa="خدمات">Services</a>
+                <a href="companies.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="Companies" data-lang-fa="شرکت‌ها">Companies</a>
+                <a href="contact.html" class="nav-link text-gray-600 hover:text-blue-500" data-lang-en="Contact" data-lang-fa="تماس با ما">Contact</a>
+            </div>
+            <div class="flex items-center">
+                 <div class="flex items-center border border-gray-300 rounded-full">
+                    <button id="lang-en" class="lang-btn px-4 py-1 text-sm font-semibold rounded-full active">EN</button>
+                    <button id="lang-fa" class="lang-btn px-4 py-1 text-sm font-semibold rounded-full">FA</button>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden ml-4 text-gray-600 focus:outline-none"><span class="text-2xl">☰</span></button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="index.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="Home" data-lang-fa="خانه">Home</a>
+            <a href="about.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="About Us" data-lang-fa="درباره ما">About Us</a>
+            <a href="services.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="Services" data-lang-fa="خدمات">Services</a>
+            <a href="companies.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="Companies" data-lang-fa="شرکت‌ها">Companies</a>
+            <a href="contact.html" class="block py-2 text-gray-600 hover:text-blue-500" data-lang-en="Contact" data-lang-fa="تماس با ما">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl font-bold text-white" data-lang-en="What We Offer" data-lang-fa="خدمات ما">What We Offer</h1>
+            </div>
+        </section>
+        
+        <section id="services-content" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <p class="text-gray-600 max-w-2xl mx-auto" data-lang-en="A comprehensive suite of services designed to help your venture succeed at every stage." data-lang-fa="مجموعه‌ای جامع از خدمات که برای کمک به موفقیت کسب‌وکار شما در هر مرحله طراحی شده است.">A comprehensive suite of services designed to help your venture succeed at every stage.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md flex items-start space-x-6 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <div class="text-4xl text-blue-500 mt-1">🏢</div>
+                        <div>
+                            <h2 class="text-xl font-semibold mb-2" data-lang-en="Incubation Space" data-lang-fa="فضای استقرار">Incubation Space</h2>
+                            <p class="text-gray-600" data-lang-en="Modern offices, dedicated desks, and co-working spaces equipped with high-speed internet and meeting rooms to accommodate startups and established companies." data-lang-fa="دفاتر مدرن، میزهای اختصاصی و فضاهای کاری مشترک مجهز به اینترنت پرسرعت و اتاق‌های جلسه برای پذیرایی از استارتاپ‌ها و شرکت‌های مستقر.">Modern offices, dedicated desks, and co-working spaces...</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md flex items-start space-x-6 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <div class="text-4xl text-blue-500 mt-1">🔬</div>
+                        <div>
+                            <h2 class="text-xl font-semibold mb-2" data-lang-en="Advanced Labs" data-lang-fa="آزمایشگاه‌های پیشرفته">Advanced Labs</h2>
+                            <p class="text-gray-600" data-lang-en="Access to specialized wet and dry laboratories, prototyping facilities, and cutting-edge research equipment to accelerate your R&D efforts." data-lang-fa="دسترسی به آزمایشگاه‌های تخصصی تر و خشک، امکانات نمونه‌سازی اولیه و تجهیزات تحقیقاتی پیشرفته برای تسریع تلاش‌های تحقیق و توسعه شما.">Access to specialized wet and dry laboratories...</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md flex items-start space-x-6 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <div class="text-4xl text-blue-500 mt-1">🤝</div>
+                        <div>
+                            <h2 class="text-xl font-semibold mb-2" data-lang-en="Mentorship & Networking" data-lang-fa="مشاوره و شبکه‌سازی">Mentorship & Networking</h2>
+                            <p class="text-gray-600" data-lang-en="Guidance from a curated network of industry experts, academics, and successful entrepreneurs. Regular events to foster collaboration and community." data-lang-fa="راهنمایی از شبکه‌ای منتخب از متخصصان صنعت، دانشگاهیان و کارآفرینان موفق. رویدادهای منظم برای تقویت همکاری و جامعه.">Guidance from a curated network of industry experts...</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md flex items-start space-x-6 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <div class="text-4xl text-blue-500 mt-1">💰</div>
+                        <div>
+                            <h2 class="text-xl font-semibold mb-2" data-lang-en="Funding Access" data-lang-fa="دسترسی به سرمایه">Funding Access</h2>
+                            <p class="text-gray-600" data-lang-en="Strategic introductions to venture capitalists, angel investors, and support with applications for government grants and funding programs." data-lang-fa="معرفی‌های استراتژیک به سرمایه‌گذاران خطرپذیر، فرشتگان سرمایه‌گذار و پشتیبانی در درخواست برای گرنت‌های دولتی و برنامه‌های تأمین مالی.">Strategic introductions to venture capitalists...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+            <p data-lang-en="Zanjan Health Science and Technology Park" data-lang-fa="پارک علم و فناوری سلامت زنجان">Zanjan Health Science and Technology Park</p>
+            <p class="text-sm text-gray-400 mt-2" data-lang-en="© 2025 All Rights Reserved. Domain: www.zhstp.ir" data-lang-fa="© ۲۰۲۵ کلیه حقوق محفوظ است. دامنه: www.zhstp.ir">© 2025 All Rights Reserved. Domain: www.zhstp.ir</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const langEnBtn = document.getElementById('lang-en');
+            const langFaBtn = document.getElementById('lang-fa');
+            const translatableElements = document.querySelectorAll('[data-lang-en]');
+            const contentTextElements = document.querySelectorAll('.content-text');
+            const body = document.body;
+            const html = document.documentElement;
+
+            function setLanguage(lang) {
+                if (lang === 'fa') {
+                    html.setAttribute('lang', 'fa');
+                    html.setAttribute('dir', 'rtl');
+                    body.classList.add('font-fa');
+                    langFaBtn.classList.add('active');
+                    langEnBtn.classList.remove('active');
+                    contentTextElements.forEach(el => el.classList.add('rtl'));
+                } else {
+                    html.setAttribute('lang', 'en');
+                    html.setAttribute('dir', 'ltr');
+                    body.classList.remove('font-fa');
+                    langEnBtn.classList.add('active');
+                    langFaBtn.classList.remove('active');
+                    contentTextElements.forEach(el => el.classList.remove('rtl'));
+                }
+
+                translatableElements.forEach(el => {
+                    const enText = el.getAttribute('data-lang-en');
+                    const faText = el.getAttribute('data-lang-fa');
+                    if (lang === 'fa') {
+                        el.innerText = faText;
+                    } else {
+                        el.innerText = enText;
+                    }
+                });
+                
+                localStorage.setItem('zhstp_lang', lang);
+            }
+
+            langEnBtn.addEventListener('click', () => setLanguage('en'));
+            langFaBtn.addEventListener('click', () => setLanguage('fa'));
+            
+            const savedLang = localStorage.getItem('zhstp_lang') || 'en';
+            setLanguage(savedLang);
+
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            const navLinks = document.querySelectorAll('header .nav-link');
+            navLinks.forEach(link => {
+                const linkPage = link.getAttribute('href').split('/').pop();
+                if (linkPage === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
